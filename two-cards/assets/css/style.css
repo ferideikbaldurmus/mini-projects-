@@ -1,0 +1,136 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.card {
+    width: 310.67px;
+    height: 316px;
+    border-radius: 20px;
+    background-color: rgba(13, 15, 16, 1);
+    padding: 24px;
+    gap: 24px;
+}
+
+.paragraph {
+    width: 262.67px;
+    height: 84px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    gap: 12px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+    margin: auto;
+}
+
+.paragraph p:first-of-type {
+    width: 112px;
+    height: 24px;
+    font-weight: 600;
+    color: white;
+}
+
+.paragraph p:last-of-type {
+    width: 262.67px;
+    height: 48px;
+    font-weight: 500;
+    color: rgba(155, 156, 158, 1);
+}
+
+.images {
+    width: 262.67;
+    height: 80px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.horizontal-line {
+    width: 330px;
+    border: 1px solid;
+    color: rgba(26, 29, 33, 1);
+    /* margin: 0;  */
+}
+
+.bottom-images {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+
+.bottom-images img {
+    margin-left: -15px;
+
+}
+
+.grey-box {
+    width: 32px;
+    height: 32px;
+    background-color: rgba(26, 29, 33, 1);
+    border: 3px;
+    border-radius: 12px;
+    color: rgba(104, 107, 110, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    margin-left: -10px;
+}
+
+.message-icon {
+    display: flex;
+    margin-left: 90px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: white;
+   
+}
+
+.message-icon img {
+    width: 12px;
+    height: 12px;
+    margin-left: 8px;
+    margin-top: 3px;
+    background: linear-gradient(rgba(130, 219, 247, 1), rgba(182, 240, 156, 1)); /* svg'nin rengini değiştiremedim :/ */
+}
+
+/* Card-2.html start */
+.card-2{
+    width: 262.67px;
+    height: 204px;
+    background-color: rgba(13, 15, 16, 1);
+    border-radius: 20px;
+    padding: 24px;
+    gap: 24px;
+}
+.card-2 p{
+    width: 214px;
+    height: 76px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    gap: 12px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+}
+.card-2 p:first-of-type {
+    width: 116px;
+    height: 24px;
+    font-weight: 600;
+    color: white;
+}
+
+.card-2 p:last-of-type {
+    width: 214px;
+    height: 48px;
+    font-weight: 500;
+    color: rgba(155, 156, 158, 1);
+}
+.card-2 .horizontal-line-2 {
+    width: 284px;
+    border: 1px solid;
+    color: rgba(26, 29, 33, 1);
+    margin: 0; 
+}
