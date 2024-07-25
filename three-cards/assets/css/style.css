@@ -1,23 +1,24 @@
-body{
-   background-color: grey; 
+body {
+    background-color: grey;
 }
-.card-container{
-display: flex;
-gap: 20px;
+
+.card-container {
+    display: flex;
+    gap: 20px;
 }
-.images{
-display: flex;
-width: 351px;
-height: 350px;
-position: relative; 
-gap: 20px;
+
+.images {
+    display: flex;
+    width: 351px;
+    height: 350px;
+    position: relative;
+    gap: 20px;
 }
-.white-bottom-card{
-  
+
+.white-bottom-card {
     margin-top: 350px;
-    border-radius: 0px 0px 32px 32px ;
+    border-radius: 0px 0px 32px 32px;
     width: 350px;
     height: 225px;
-    background-color: rgba(255, 255, 255, 1); 
-    
+    background-color: rgba(255, 255, 255, 1);
 }
