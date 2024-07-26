@@ -1,16 +1,111 @@
-*{
+* {
     margin: 0;
     padding: 0;
-}
-body {
-    width: 100%;
-    height: 100%;
+    /* box-sizing: border-box; */
 }
 
-.images {
+body {
+    /* width: 100%; */
+    background-color: rgb(238, 233, 228);
+    overflow-x: hidden; 
+}
+.general-container{
     display: flex;
+    flex-direction: column; 
+}
+.general-container img{
+    display: flex;
+    align-items: center;
     justify-content: flex-end;
-    margin-left: 145px;
-    width: 1293px;
-    height: 916px;
+    width: 49%;
+    /* height: 50%;  */
+}
+
+.left-general-container{
+display: flex;
+justify-content: flex-start;
+padding: 100px;
+
+
+}
+.left-top-container{
+width: 50%;
+font-weight: 550;
+/* height: 50%; */
+/* margin-top: 25px; */
+}
+.general-container p:nth-child(1) {
+    width: 110px;
+    height: 16px;
+    font-family: "Gilroy-Bold" , sans-serif;
+    color: #1B6DF1;
+}
+.general-container p:nth-child(2) {
+    width: 449px;
+    height: 92px;
+    margin-top: 25px;
+    font-size: 42px;
+    font-family: "Gilroy-Bold" , sans-serif;
+    font-weight: bold;
+    color: #1F1F1F;
+}
+.general-container p:nth-child(3) {
+    width: 539px;
+    height: 87px;
+    font-size: 18px;
+    margin-top: 25px;
+    color: rgba(115, 115, 115, 1);
+    font-family: "Gilroy-Medium" , sans-serif;
+}
+.blue-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 318px;
+    max-height: 56px;
+    border-radius: 8px;
+    background-color: rgba(80, 143, 244, 1);
+    margin-top: 25px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.blue-button p:nth-child(1){
+    width: 200px;
+    font-size: 16px;
+    line-height: 16px;
+    color: white;
+    padding: 22px;
+    transition: color 0.3s;
+}
+.blue-button img{
+    width: 16px;
+    height: 16px;
+    transition: filter 0.3s;
+}
+.blue-button:hover {
+    background-color: white;
+}
+.blue-button:hover p {
+    color: rgba(80, 143, 244, 1);
+}
+/* .blue-button:hover svg {
+    fill: rgb(80, 143, 244, 1); 
+     transition: fill 0.3s;
+} */
+.left-bottom-container{
+
+
+}
+.left-top{
+width: 294px;
+height: 222px;
+   
+}
+.top-left-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 16px;
+    background-color: rgba(246, 248, 255, 1);
 }
