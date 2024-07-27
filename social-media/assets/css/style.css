@@ -1,0 +1,33 @@
+body{
+    background-color: white;
+}
+.general-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-section{
+}
+.top-section p:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 564px;
+    height: 92px;
+    font-size: 44px;
+    font-family: "Gilroy-Bold", sans-serif;
+}
+.top-section p:last-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    width: 139px;
+    height: 16px;
+    margin-top: 33px;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: "Gilroy-Bold", sans-serif;
+    color: rgba(27, 109, 241, 1);
+}
