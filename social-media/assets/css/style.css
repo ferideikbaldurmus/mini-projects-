@@ -40,36 +40,40 @@ h1{
 } */
 
 
-body {}
+body {
+
+}
 
 .top-section {
-    width: 630px;
-    height: 256px;
+width: 100%;
 }
 
 h1 {
     color: rgba(27, 109, 241, 1);
     font-family: "Gilroy-Bold", sans-serif;
-    width: 100%;
+
 }
 
 .paragraph {
     width: 100%;
-}
-
-.top-section p:nth-child(1) {
-    font-family: "Gilroy-Bold", sans-serif;
-    color: rgba(31, 31, 31, 1);
-    font-size: 42px;
     text-align: center;
-
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
 .top-section p:nth-child(2) {
+    font-family: "Gilroy-Bold", sans-serif;
+    color: rgba(31, 31, 31, 1);
+    font-size: 42px;
+    
+
+}
+
+.top-section p:nth-child(3) {
     font-family: "Gilroy-Medium", sans-serif;
     color: rgba(115, 115, 115, 1);
     font-size: 18px;
-    text-align: center;
 }
 
 
@@ -79,7 +83,7 @@ h1 {
     align-items: center;
     justify-content: center;
     gap: 26px;
-    width: 100%;
+    padding: 150px;
 
 }
 
