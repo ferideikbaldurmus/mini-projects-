@@ -54,8 +54,12 @@ nav ul li:hover:nth-child(4) {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
-
+.box:hover {
+    background-color: black;
+    color: white;
+}
 .first-part {
     display: flex;
     padding: 90px;
@@ -112,7 +116,7 @@ nav ul li:hover:nth-child(4) {
 
 input[type="number"] {
     width: 45px;
-    height: 35px;
+    height: 25px;
     padding: 5px;
     font-size: 16px;
     border: 1px solid #ccc;
@@ -131,10 +135,26 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .bottom-box {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    
+    
 }
 .bottom-box .box{
     margin: 0px 20px;
-    height: 45px;
+    width: 100px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid;
+    color: #212529;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.bottom-box .box:hover {
+    background-color: black;
+    color: white;
+}
+.bottom-box .box p{
+    font-size: 12px;
+    
 }
