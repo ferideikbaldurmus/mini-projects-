@@ -13,32 +13,10 @@ nav {
     display: flex;
     align-items: center;
     padding: 0px 100px 0px;
-    gap: 800px; /* buradaki kutuyu düzgün bir şekilde sağa hizalayamadım? */
-}
-nav a {
-    text-decoration: none;
-    color: black;
+    gap: 800px;
+    /* buradaki kutuyu düzgün bir şekilde sağa hizalayamadım? */
 }
 
-nav .dropdown-content {
-   
-    position: absolute; /* Dropdown menünün konumu */
-    background-color: white;
-    min-width: 160px; /* Dropdown menünün genişliği */
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Gölge efekti */
-    z-index: 1; /* Üstte görünmesi için */
-}
-
-nav .dropdown-content a {
-    color: black;
-    padding: 12px 16px; /* İç boşluk */
-    text-decoration: none;
-    display: block; /* Tam genişlik */
-}
-
-nav .dropdown-content a:hover {
-    background-color: #ddd; /* Hover efekti */
-}
 
 nav ul {
     margin: 0;
@@ -70,6 +48,39 @@ nav ul li:hover:nth-child(4) {
     color: #181819;
 }
 
+.dropdown a {
+    display: block;
+    color: #181819;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.dropdown button {
+    background-color: transparent;
+    border: none;
+    color: #7A7B7B;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.dropdown .dropdown-content {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #d2d4d5;
+    border-radius: 2px;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:nth-child(2) {
+    border-top: 1px solid #d2d4d5;
+}
+
 nav .box {
     width: 100px;
     height: 30px;
@@ -80,11 +91,14 @@ nav .box {
     align-items: center;
     justify-content: center;
     transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
 }
+
 .box:hover {
     background-color: black;
     color: white;
 }
+
 .first-part {
     display: flex;
     padding: 90px;
@@ -121,7 +135,7 @@ nav .box {
 }
 
 .upper-part p:nth-child(1) {
-    font-size: 10px;
+    font-size: 15px;
 
 }
 
@@ -133,6 +147,7 @@ nav .box {
     font-size: 20px;
     gap: 10px;
 }
+
 .upper-part .line-through {
     font-size: 20px;
     text-decoration: line-through;
@@ -164,9 +179,11 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .bottom-box {
-    display: flex;   
+    display: flex;
+    cursor: pointer;
 }
-.bottom-box .box{
+
+.bottom-box .box {
     margin: 0px 20px;
     width: 100px;
     height: 35px;
@@ -178,18 +195,21 @@ input[type="number"]::-webkit-inner-spin-button {
     border-radius: 2px;
     color: #212529;
     transition: background-color 0.3s ease, color 0.3s ease;
-    padding: 2px; 
+    padding: 2px;
     gap: 3px;
 
 }
+
 .bottom-box .box:hover {
     background-color: black;
     color: white;
 }
-.bottom-box .box p{
+
+.bottom-box .box p {
     font-size: 14px;
     font-style: bold;
 }
-.bottom-box .box i{
+
+.bottom-box .box i {
     font-size: 15px;
 }
