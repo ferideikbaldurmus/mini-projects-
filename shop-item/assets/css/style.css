@@ -13,6 +13,31 @@ nav {
     display: flex;
     align-items: center;
     padding: 0px 100px 0px;
+    gap: 800px; /* buradaki kutuyu düzgün bir şekilde sağa hizalayamadım? */
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav .dropdown-content {
+   
+    position: absolute; /* Dropdown menünün konumu */
+    background-color: white;
+    min-width: 160px; /* Dropdown menünün genişliği */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Gölge efekti */
+    z-index: 1; /* Üstte görünmesi için */
+}
+
+nav .dropdown-content a {
+    color: black;
+    padding: 12px 16px; /* İç boşluk */
+    text-decoration: none;
+    display: block; /* Tam genişlik */
+}
+
+nav .dropdown-content a:hover {
+    background-color: #ddd; /* Hover efekti */
 }
 
 nav ul {
@@ -45,7 +70,7 @@ nav ul li:hover:nth-child(4) {
     color: #181819;
 }
 
-.box {
+nav .box {
     width: 100px;
     height: 30px;
     gap: 10px;
@@ -87,7 +112,7 @@ nav ul li:hover:nth-child(4) {
     color: #212529;
 }
 
-.upper-part {}
+/* .upper-part {} */
 
 .upper-part p {
     margin: 10px;
@@ -106,6 +131,11 @@ nav ul li:hover:nth-child(4) {
 
 .upper-part p:nth-child(3) {
     font-size: 20px;
+    gap: 10px;
+}
+.upper-part .line-through {
+    font-size: 20px;
+    text-decoration: line-through;
 }
 
 .bottom-part {
@@ -115,8 +145,8 @@ nav ul li:hover:nth-child(4) {
 }
 
 input[type="number"] {
-    width: 45px;
-    height: 25px;
+    width: 35px;
+    height: 30px;
     padding: 5px;
     font-size: 16px;
     border: 1px solid #ccc;
@@ -134,9 +164,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .bottom-box {
-    display: flex;
-    
-    
+    display: flex;   
 }
 .bottom-box .box{
     margin: 0px 20px;
@@ -147,14 +175,21 @@ input[type="number"]::-webkit-inner-spin-button {
     justify-content: center;
     text-align: center;
     border: 1px solid;
+    border-radius: 2px;
     color: #212529;
     transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 2px; 
+    gap: 3px;
+
 }
 .bottom-box .box:hover {
     background-color: black;
     color: white;
 }
 .bottom-box .box p{
-    font-size: 12px;
-    
+    font-size: 14px;
+    font-style: bold;
+}
+.bottom-box .box i{
+    font-size: 15px;
 }
