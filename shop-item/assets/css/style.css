@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+
 }
 
 nav {
@@ -43,10 +44,97 @@ nav ul li:hover:nth-child(3) {
 nav ul li:hover:nth-child(4) {
     color: #181819;
 }
-.boxes{
-    width: 50px;
+
+.box {
+    width: 100px;
     height: 30px;
-    border: 2px solid #181819;
-    border-radius: 1px;
-   
+    gap: 10px;
+    border: 1px solid #181819;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-part {
+    display: flex;
+    padding: 90px;
+    font-family: sans-serif;
+}
+
+.big-box {
+    width: 50%;
+    height: 700px;
+    background-color: #DFE1E7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    color: #72747A;
+    font-size: 80px;
+    font-weight: 100;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 50px;
+    color: #212529;
+}
+
+.upper-part {}
+
+.upper-part p {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.upper-part p:nth-child(1) {
+    font-size: 10px;
+
+}
+
+.upper-part p:nth-child(2) {
+    font-size: 50px;
+}
+
+.upper-part p:nth-child(3) {
+    font-size: 20px;
+}
+
+.bottom-part {
+    font-size: 25px;
+    font-weight: 300;
+    padding: 40px 0px 0px;
+}
+
+input[type="number"] {
+    width: 45px;
+    height: 35px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="number"]:focus {
+    outline: none;
+    border: 2px solid rgb(106, 155, 204);
+    box-shadow: 0 0 10px rgba(106, 155, 204);
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.bottom-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.bottom-box .box{
+    margin: 0px 20px;
+    height: 45px;
 }
