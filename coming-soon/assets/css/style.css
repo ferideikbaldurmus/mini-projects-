@@ -103,7 +103,6 @@ p {
     margin-left: 15px;
     border-radius: 5px;
     display: flex;
-
     transition: box-shadow 0.3s;
 }
 
@@ -121,7 +120,6 @@ p {
 
 .email-input::placeholder {
     color: rgba(0, 0, 0, 0.5);
-
 }
 
 .email-box p {
@@ -134,7 +132,7 @@ p {
 
 .warning-icon {
     position: relative;
-    left: 200px;
+    left: 250px;
     top: 50%;
     transform: translateY(-50%);
     width: 20px;
