@@ -43,3 +43,6 @@ nav p:hover{
     margin-top: -300px;
 
 }
+.first-part h1{
+    z-index: 2;
+}
