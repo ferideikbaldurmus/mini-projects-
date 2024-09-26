@@ -13,6 +13,12 @@ nav {
     gap: 20px;
     padding: 0px 100px;
     font-weight: 600;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #737373;
 }
 
 nav h1 {
@@ -25,6 +31,7 @@ nav p:nth-child(2) {
     margin-left: 50%;
     color: #737373;
     cursor: pointer;
+
 }
 
 nav p:nth-child(3) {
@@ -132,6 +139,10 @@ nav p:nth-child(5):hover {
     font-family: sans-serif;
     font-weight: 400;
     cursor: pointer;
+}
+
+.last-box a {
+    text-decoration: none;
 }
 
 .last-box:hover {
@@ -311,13 +322,15 @@ footer {
     height: 70px;
     background-color: #fff;
     font-family: sans-serif;
-    padding: 0px 70px;
+    padding: 0px 70px 0px;
 }
+
 footer p {
-color: #212529;
+    color: #212529;
 
 }
-footer p:nth-child(2){
+
+footer p:nth-child(2) {
     color: #1E31F3;
     cursor: pointer;
     text-decoration: underline;
@@ -325,17 +338,291 @@ footer p:nth-child(2){
     margin-left: 65%;
     font-weight: 100;
 }
-footer p:nth-child(3){
+
+footer p:nth-child(3) {
     color: #1E31F3;
     cursor: pointer;
     text-decoration: underline;
     margin-right: 10px;
     font-weight: 100;
 }
-footer p:nth-child(4){
+
+footer p:nth-child(4) {
     color: #1E31F3;
     cursor: pointer;
     text-decoration: underline;
     margin-right: 10px;
     font-weight: 100;
+}
+
+/* resume.html start */
+nav a:nth-child(2) {
+    margin-left: 700px;
+}
+
+.contents-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contents-container h1 {
+    background: linear-gradient(135deg, #3530E7, #C72591);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: sans-serif;
+    font-size: 50px;
+    margin-left: 300px;
+}
+
+.experience-container {
+    display: flex;
+    gap: 400px;
+}
+
+.experience-container h2 {
+    color: #1E31F3;
+    font-family: sans-serif;
+    font-size: 35px;
+    display: flex;
+
+}
+
+.download-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1E31F3;
+    width: 200px;
+    height: 60px;
+    color: #fff;
+    font-family: sans-serif;
+    border-radius: 8px;
+    font-size: 16px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.download-box:hover {
+    background-color: #2833ac;
+}
+
+.big-boxes-container .big-box {
+    width: 800px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 15px rgba(217, 218, 219, 0.9);
+    margin-left: 320px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+
+}
+
+.mini-box {
+    width: 200px;
+    height: 100px;
+    background-color: #F4F5F6;
+    margin-left: 50px;
+    border-radius: 15px;
+}
+
+.mini-box h1 {
+    margin-left: 30px;
+    color: #1E31F3;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.mini-box h3 {
+    margin-left: 30px;
+    color: #000000;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: -10px;
+}
+
+.mini-box h5 {
+    margin-left: 30px;
+    color: #6C757D;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: -10px;
+    font-weight: 100;
+}
+
+.big-box p {
+    width: 410px;
+    margin-left: 50px;
+    color: #212529;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.education-container {
+    color: #E21E7F;
+    font-family: sans-serif;
+    font-size: 25px;
+    display: flex;
+    margin-left: -600px;
+}
+
+.big-boxes-container-2 .big-box-2 {
+    width: 800px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 15px rgba(217, 218, 219, 0.9);
+    margin-left: 320px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+
+}
+
+.contents-container-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contents-container-2 h1 {
+    background: linear-gradient(135deg, #3530E7, #C72591);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: sans-serif;
+    font-size: 50px;
+    margin-left: 300px;
+}
+
+.mini-box-2 {
+    width: 200px;
+    height: 100px;
+    background-color: #F4F5F6;
+    margin-left: 50px;
+    border-radius: 15px;
+}
+
+.mini-box-2 h1 {
+    margin-left: 30px;
+    color: #E21E7F;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.mini-box-2 h3 {
+    margin-left: 30px;
+    color: #000000;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: -10px;
+}
+
+.mini-box-2 h5 {
+    margin-left: 30px;
+    color: #6C757D;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-top: -10px;
+    font-weight: 100;
+}
+
+.big-box-2 p {
+    width: 410px;
+    margin-left: 50px;
+    color: #212529;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.last-big-boxes-container {
+    margin-left: 320px;
+}
+
+.last-big-boxes {
+    width: 700px;
+    height: 600px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 15px rgba(217, 218, 219, 0.9);
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 50px;
+
+}
+
+.professional-skills-container {
+    display: flex;
+}
+
+.professional-skills {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #3530E7, #C72591);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.professional-skills-container h2 {
+    background: linear-gradient(135deg, #3530E7, #C72591);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.six-boxes-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.six-boxes {
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #F8F9FA;
+    margin-top: 30px;
+    color: #212529;
+    font-family: sans-serif;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.professional-skills-container-end{
+    display: flex;
+    margin-top: 50px;
+}
+.professional-skills-end {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #3530E7, #C72591);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 25px;
+    margin-right: 20px;
+}
+.professional-skills-container-end h2 {
+    background: linear-gradient(135deg, #3530E7, #C72591);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
 }
