@@ -690,6 +690,7 @@ nav a:nth-child(2) {
     font-size: 30px;
     font-weight: 100;
 }
+
 .bottom-part-container .bottom-part h1 {
     display: flex;
     align-items: center;
@@ -701,8 +702,8 @@ nav a:nth-child(2) {
     height: 400px;
     background: linear-gradient(135deg, #3530E7, #C72591);
     display: flex;
-    flex-direction: column; 
-    align-items: center; 
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 
@@ -725,12 +726,109 @@ nav a:nth-child(2) {
     font-family: sans-serif;
     font-weight: 600;
 }
-.contact-me-box-container{
+
+.contact-me-box-container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.contact-me-box:hover{
+
+.contact-me-box:hover {
     background-color: #fff;
     color: #000;
+}
+
+/* contact.html */
+.contact-me-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.contact-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    height: 800px;
+    background-color: #F8F9FA;
+    border-radius: 15px;
+    font-family: sans-serif;
+}
+
+.contact-me h1 {
+    font-size: 40px;
+    margin-bottom: -15px;
+}
+
+.contact-me h3 {
+    font-weight: 100;
+    color: #6C757D;
+    font-size: 20px;
+}
+
+.envelope-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    background: linear-gradient(135deg, #3530E7, #C72591);
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+input,
+textarea {
+    padding: 20px 300px 20px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 20px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #888;
+    font-size: 14px;
+}
+
+input:focus:invalid,
+textarea:focus:invalid {
+    border: 1px solid #CED4DA;
+    box-shadow: 0 0 8px rgba(255, 0, 0, 0.7);
+}
+
+input:invalid,
+textarea:invalid {
+    border: 1px solid #CED4DA;
+    box-shadow: none;
+}
+.form-group:nth-child(4) textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px; 
+    font-size: 14px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+    box-sizing: border-box; 
+}
+
+.button-submit {
+    background-color: #6B76F7;
+    width: 500px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
 }
