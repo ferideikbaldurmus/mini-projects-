@@ -48,21 +48,11 @@ nav p:nth-child(5) {
     color: #737373;
     cursor: pointer;
 }
-
-nav p:nth-child(2):hover {
+nav p:hover{
     color: #484747;
 }
-
-nav p:nth-child(3):hover {
-    color: #484747;
-}
-
-nav p:nth-child(4):hover {
-    color: #484747;
-}
-
-nav p:nth-child(5):hover {
-    color: #484747;
+nav a:hover {
+    color: #484747; 
 }
 
 .first-part-container {
@@ -625,4 +615,25 @@ nav a:nth-child(2) {
     font-family: sans-serif;
     font-size: 30px;
     margin-top: 10px;
+}
+.projects-container{
+background-color: #F8F9FA;
+}
+.projects-container h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project-name-boxes-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project-name-boxes{
+width: 800px;
+height: 300px;
+background-color: #fff;
+border-radius: 10px;
+box-shadow: 0 4px 15px rgba(217, 218, 219, 0.9);
+
 }
