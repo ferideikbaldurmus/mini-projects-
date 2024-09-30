@@ -1,0 +1,129 @@
+body {
+   overflow-x: hidden;
+}
+
+header {
+    background-color: #FFFFFF;
+}
+
+nav {
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    height: 80px;
+    border-bottom: 2px solid #E8ECF3;
+    padding: 20px 0px 0px 50px;
+    font-family: "Inter", sans-serif;
+}
+
+nav .logo {
+    padding: 0px 0px 0px 50px;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #334155;
+    gap: 10px;
+}
+
+nav h1 {
+    margin-top: -5px;
+    margin-bottom: 0;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+nav h1 a {
+    text-decoration: none;
+    color: #0F172A;
+    font-size: 18px;
+    position: relative;
+}
+
+nav h1 a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 40%;
+    border-bottom: 2px solid #0F172A;
+}
+
+.middle-nav ul {
+    padding: 0px 300px;
+}
+
+.fa-chevron-down {
+    color: #475569;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+nav ul li a:hover {
+    color: #0F172A;
+}
+
+.middle-nav ul li {
+    position: relative;
+}
+
+.middle-nav ul li:hover::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 2px;
+    background-color: #a4a6a7;
+    border-radius: 2px solid;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.middle-nav ul li::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 2px;
+    background-color: #a4a6a7;
+    border-radius: 2px solid;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.right-nav {
+    width: 150px;
+    height: 40px;
+    background-color: #F3F7FA;
+    border-radius: 50px;
+    color: #0F172A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.right-nav h4 {
+    margin: 0;
+    font-size: 14px;
+}
+.right-nav:hover{
+    background-color: #dedfdf;
+}
