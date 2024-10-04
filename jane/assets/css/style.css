@@ -259,7 +259,7 @@ cursor: pointer;
     width: 100%;
     height: 80%;
     border-radius: 20px;
-    object-fit: cover; 
+    object-fit: cover;
 }
 
 .transform-text {
@@ -284,7 +284,7 @@ cursor: pointer;
     height: 40px;
     background-color: #FEFDFC;
     box-shadow: 0 10px 20px rgba(199, 208, 207, 0.5),
-    0 6px 10px rgba(255, 255, 255, 0.6);
+        0 6px 10px rgba(255, 255, 255, 0.6);
     margin-left: 160px;
     margin-top: -20px;
     border-radius: 20px;
@@ -311,13 +311,14 @@ cursor: pointer;
     font-family: "Inter", sans-serif;
     color: #334155;
 }
-.bottom-box{
+
+.bottom-box {
     position: absolute;
     width: 250px;
     height: 40px;
     background-color: #FEFDFC;
     box-shadow: 0 10px 20px rgba(199, 208, 207, 0.5),
-    0 6px 10px rgba(255, 255, 255, 0.6);
+        0 6px 10px rgba(255, 255, 255, 0.6);
     margin-left: -150px;
     margin-top: -180px;
     border-radius: 20px;
@@ -326,6 +327,7 @@ cursor: pointer;
     align-items: center;
     justify-content: center;
 }
+
 .sketch-img {
     width: 20px;
     height: 25px;
@@ -334,8 +336,191 @@ cursor: pointer;
     justify-content: flex-end;
     margin-right: 15px;
 }
+
 .bottom-box h4 {
     font-size: 13px;
     font-family: "Inter", sans-serif;
     color: #334155;
+}
+
+.second-part-left-container {
+    background-color: #F8FAFB;
+    width: 110%;
+    height: 900px;
+    
+}
+
+.second-part-left {
+    margin: 0px 50px;
+    margin-right: 100px;
+}
+
+.timeline {
+    position: relative;
+    max-width: 700px;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+.timeline-item {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+}
+
+.icon {
+    background-color: #0F172A;
+    color: #fff;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.content {
+    max-width: 300px;
+}
+
+.content h3 {
+    font-family: "Lexend", sans-serif;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.content p {
+    color: #334155;
+    font-family: "Inter", sans-serif;
+    margin-left: 30px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.timeline-points {
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 3px;
+    height: 60px;
+    border-left: 2px dotted #CBD5E1;
+}
+
+.second-part-left h1 {
+    padding: 50px 0px;
+}
+
+.left-text {
+    margin: 0px 30px;
+    margin-top: -100px;
+}
+
+.left-text h1 {
+    width: 40%;
+    font-size: 52px;
+    line-height: 1.3;
+    font-family: "Lexend", sans-serif;
+}
+
+.left-text h1 span {
+    color: #0569A0;
+    font-family: "Lexend", sans-serif;
+}
+
+.left-text svg {
+    margin-left: 210px;
+    margin-top: -175px;
+    position: absolute;
+    z-index: 1;
+    color: #CAEBFD;
+}
+
+.right-text {
+    width: 45%;
+    margin-left: 700px;
+    margin-top: -220px;
+    position: absolute;
+}
+
+.right-text h3 {
+    color: #334155;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.timeline-right-image-container {
+    margin-top: -500px;
+    margin-left: 600px;
+    position: absolute;
+}
+
+.timeline-right-image img {
+    width: 100%;
+    margin-left: -50px;
+    border-radius: 10px;
+
+}
+
+.right-image-top-svg {
+    margin-left: 735px;
+    position: absolute;
+    margin-top: -35px;
+}
+
+.right-bottom-box-container {
+    display: flex;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 170px;
+}
+
+.right-bottom-box {
+    background-color: #18689A;
+    opacity: 0.9;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    backdrop-filter: blur(1px);
+
+}
+
+.h1-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    font-size: 40px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    margin-top: -20px;
+}
+
+.h2-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-size: 12px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    margin-top: -40px;
+}
+
+.left-bottom-svg {
+    margin-top: 50px;
+    margin-left: 180px;
+    position: absolute;
+    transform: rotate(5deg);
+    color: #475569;
+}
+
+.left-bottom-svg h3 {
+    color: #475569;
+    transform: rotate(-20deg);
+    font-family: "Gochi Hand", cursive;
+    width: 50%;
+    margin-top: -40px;
+    margin-left: 70px;
 }
