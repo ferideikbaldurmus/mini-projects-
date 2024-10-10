@@ -347,7 +347,7 @@ cursor: pointer;
     background-color: #F8FAFB;
     width: 110%;
     height: 900px;
-    
+
 }
 
 .second-part-left {
@@ -523,4 +523,55 @@ cursor: pointer;
     width: 50%;
     margin-top: -40px;
     margin-left: 70px;
+}
+
+.download-cv-container {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.download-cv {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: rgba(241, 243, 245, 0.5); 
+    animation: rotate 10s linear infinite;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+    
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.download-icon {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #0F172A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    transform: none;
+}
+text {
+    font-size: 25px;
+    fill: #252C40;
+    text-anchor: middle;
+
 }
