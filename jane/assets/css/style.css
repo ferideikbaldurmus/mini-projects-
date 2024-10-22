@@ -537,14 +537,14 @@ cursor: pointer;
     width: 160px;
     height: 160px;
     border-radius: 50%;
-    background-color: rgba(241, 243, 245, 0.5); 
+    background-color: rgba(241, 243, 245, 0.5);
     animation: rotate 10s linear infinite;
     font-family: "Inter", sans-serif;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     position: relative;
-    
+
 }
 
 @keyframes rotate {
@@ -569,23 +569,26 @@ cursor: pointer;
     color: #FFFFFF;
     transform: none;
 }
+
 text {
     font-size: 25px;
     fill: #252C40;
     text-anchor: middle;
 }
-.icons-container{
+
+.icons-container {
     margin: 50px;
-padding: 30px 20px;
-width: 90%;
+    padding: 30px 20px;
+    width: 90%;
     height: 200px;
     background-color: #FFFFFF;
     display: flex;
-   align-items: center;
-   justify-content: space-around;
-   position: relative;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
 }
-.icons{
+
+.icons {
     width: 90px;
     height: 90px;
     border: 1px solid #F1F5F9;
@@ -594,8 +597,9 @@ width: 90%;
     position: relative;
     display: flex;
     align-items: center;
-justify-content: center;
+    justify-content: center;
 }
+
 .icons:nth-child(1) {
     top: 10px;
 }
@@ -631,11 +635,85 @@ justify-content: center;
 .icons:nth-child(9) {
     top: 40px;
 }
+
 .icons svg {
     width: 40px;
     height: 40px;
 }
+
 .icons img {
     width: 40px;
     height: 40px;
+}
+
+.icons-bottom-part-container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.icons-bottom-part {
+    width: 100px;
+    height: 100px;
+    margin-right: 200px;
+    transform: scaleX(-1);
+    transform: rotate(30deg);
+    color: #475569;
+}
+
+.icons-bottom-part p {
+    font-family: "Gochi Hand", cursive;
+    color: #475569;
+    width: 170px;
+    font-size: 23px;
+    margin-left: 100px;
+    transform: rotate(-25deg);
+    margin-top: -150px;
+}
+
+.icons-h1-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons-h1 h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lexend", sans-serif;
+    color: #0F172A;
+    font-size: 50px;
+}
+
+.icons-h1 h2 {
+    color: #0F172A;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+    width: 470px;
+    text-align: center;
+    margin-left: 90px;
+}
+.four-cards-container{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 50px;
+}
+.four-cards{
+width: 80%;
+height: 450px;
+background-color: #F6FAFC;
+border-radius: 25px;
+border: 1px solid #F1F5F9;
+}
+.first-card{
+
+}
+.left-part {
+
+}
+.left-part svg{
+color: #4E7692;
 }
