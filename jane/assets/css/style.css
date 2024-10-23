@@ -695,28 +695,44 @@ text {
     text-align: center;
     margin-left: 90px;
 }
-.four-cards-container{
+
+.four-cards-container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.four-cards{
-width: 80%;
-height: 450px;
-background-color: #F6FAFC;
-border-radius: 25px;
-border: 1px solid #F1F5F9;
-}
-.cards-right-img{
-  
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-    border-radius: 25px 0 0 25px;
-}
-.cards-right-img img{
 
-width: 600px;
-height: 350px;
-object-fit: cover;
+.four-cards {
+    width: 85%;
+    height: 500px;
+    background-color: #F6FAFC;
+    border-radius: 25px;
+    border: 1px solid #F1F5F9;
+}
+.left-cards-container{
+
+}
+.left-card{
+    
+}
+.cards-right-img {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: 70px;
+    overflow: hidden; 
+
+}
+
+.cards-right-img img {
+    width: 750px;
+    height: 430px;
+    object-fit: cover;
+    border-radius: 20px 0px 20px 0px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.cards-right-img:hover img {
+    transform: scale(1.1);
 }
