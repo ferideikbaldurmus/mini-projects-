@@ -696,10 +696,9 @@ text {
     margin-left: 90px;
 }
 .four-cards-container{
-display: flex;
-align-items: center;
-justify-content: center;
-margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .four-cards{
 width: 80%;
@@ -708,12 +707,16 @@ background-color: #F6FAFC;
 border-radius: 25px;
 border: 1px solid #F1F5F9;
 }
-.first-card{
-
+.cards-right-img{
+  
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 25px 0 0 25px;
 }
-.left-part {
+.cards-right-img img{
 
-}
-.left-part svg{
-color: #4E7692;
+width: 600px;
+height: 350px;
+object-fit: cover;
 }
