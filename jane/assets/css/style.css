@@ -826,3 +826,53 @@ padding: 30px 100px;
     background-color: #E2E8F0;
     margin-left: 200px;
 }
+.part-one h3{
+margin-left: 300px;
+margin-top: 50px;
+font-family: "Inter", sans-serif;
+color: #334155;
+font-weight: 500;
+width: 350px;
+}
+.directional-boxes{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #E9EFF5;
+    margin-top: 150px;
+    margin-left: -350px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5E96BE;
+    cursor: pointer;
+}
+.directional-boxes-2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #E9EFF5;
+    margin-top: 150px;
+    margin-left: 10px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5E96BE;
+    cursor: pointer;
+}
+.directional-boxes:hover{
+    background-color: #e2eaf7;
+    opacity: 0.7; 
+}
+.directional-boxes-2:hover{
+    background-color: #e2eaf7;
+    opacity: 0.7; 
+}
+.bottom-four-box{
+    
+}
+.first-box-aout-me{
+
+}
