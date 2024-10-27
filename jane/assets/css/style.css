@@ -990,6 +990,7 @@ text {
     width: 60px;
     height: 60px;
 }
+
 .first-box h5 {
     margin-left: 20px;
     color: #0F172A;
@@ -1076,4 +1077,25 @@ text {
     color: #0F172A;
     font-family: "Lexend", sans-serif;
     font-size: 15px;
+}
+
+.brand-names-container h2 {
+    font-family: "Gochi Hand", cursive;
+    color: #475569;
+    margin-left: -950px;
+    margin-top: 100px;
+    width: 330px;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.brand-names-container span {
+    font-family: "Gochi Hand", cursive;
+    color: #0569A0;
+}
+
+.brand-names-container svg {
+    margin-left: -600px;
+    margin-top: -90px;
+    color: #475569;
 }
