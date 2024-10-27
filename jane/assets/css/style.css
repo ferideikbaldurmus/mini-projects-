@@ -887,7 +887,7 @@ text {
 .bottom-four-box {
     display: flex;
     margin-top: 50px;
-    margin-left: 220px;
+    margin-left: 350px;
 }
 
 .first-box-aout-me {
@@ -963,7 +963,8 @@ text {
     margin-left: 20px;
     color: #0F172A;
 }
-.first-box h4{
+
+.first-box h4 {
     font-family: "Inter", sans-serif;
     color: #334155;
     font-size: 15px;
@@ -971,32 +972,108 @@ text {
     font-weight: 400;
     line-height: 25px;
 }
-.boxes-line{
+
+.boxes-line {
     width: 260px;
     height: 1px;
     background-color: #E5E7EB;
     margin-left: 20px;
 }
+
 .boxes-images {
     margin-top: -20px;
 }
-.boxes-images img{
-margin-left: 220px;
-margin-top: -350px;
-width: 60px;
-height: 60px;
+
+.boxes-images img {
+    margin-left: 220px;
+    margin-top: -350px;
+    width: 60px;
+    height: 60px;
 }
-.first-box h5{
+.first-box h5 {
     margin-left: 20px;
     color: #0F172A;
     font-family: "Lexend", sans-serif;
     font-size: 15px;
 }
-.boxes-images h6{
+
+.boxes-images h6 {
     margin-left: 20px;
     color: #475569;
     font-family: "Inter", sans-serif;
     font-size: 13px;
     font-weight: 400;
     margin-top: -20px;
+}
+
+.second-box h3 {
+    font-family: "Lexend", sans-serif;
+    margin-top: -20px;
+    font-size: 20px;
+    margin-left: 20px;
+    color: #0F172A;
+}
+
+.second-box h4 {
+    font-family: "Inter", sans-serif;
+    color: #334155;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.second-box h5 {
+    margin-left: 20px;
+    color: #0F172A;
+    font-family: "Lexend", sans-serif;
+    font-size: 15px;
+}
+
+.third-box h3 {
+    font-family: "Lexend", sans-serif;
+    margin-top: -20px;
+    font-size: 20px;
+    margin-left: 20px;
+    color: #0F172A;
+}
+
+.third-box h4 {
+    font-family: "Inter", sans-serif;
+    color: #334155;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.third-box h5 {
+    margin-left: 20px;
+    color: #0F172A;
+    font-family: "Lexend", sans-serif;
+    font-size: 15px;
+}
+
+.fourth-box h3 {
+    font-family: "Lexend", sans-serif;
+    margin-top: -20px;
+    font-size: 20px;
+    margin-left: 20px;
+    color: #0F172A;
+}
+
+.fourth-box h4 {
+    font-family: "Inter", sans-serif;
+    color: #334155;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.fourth-box h5 {
+    margin-left: 20px;
+    color: #0F172A;
+    font-family: "Lexend", sans-serif;
+    font-size: 15px;
 }
