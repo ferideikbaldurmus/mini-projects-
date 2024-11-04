@@ -1126,8 +1126,8 @@ text {
 .three-card-bottom-container {
     display: flex;
     align-items: center;
-    justify-content: center;
     margin-top: 100px;
+
 }
 
 .three-card-bottom-container h1 {
@@ -1135,6 +1135,7 @@ text {
     font-family: "Lexend", sans-serif;
     width: 600px;
     text-align: center;
+    margin-left: 250px;
 }
 
 .three-card-bottom-container h1 span {
@@ -1150,21 +1151,50 @@ text {
     margin-top: 40px;
 }
 .read-the-latest {
-margin-top: 200px;
+margin-bottom: -350px;
 display: flex;
+margin-left: -950px;
 
 }
 .read-the-latest h2 {
 display: flex;
-width: 400px;
+width: 200px;
+font-family: "Gochi Hand", cursive;
+color: #475569;
+transform: rotate(-20deg);
 }
-.three-card-bottom{
+.read-the-latest-svg{
+    display: flex;
+width: 80px;
+color: #475569;
+transform: rotate(210deg);
+
+}
+.three-card-bottom-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin: 0px 150px;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+.three-card-bottom{
    width: 350px;
    height: 500px;
    border: 1px solid #F1F5F9;
    margin-top: 100px;
    background-color: #F8FAFC;
    border-radius: 20px;
+}
+.three-card-bottom-img{
+}
+.three-card-bottom-img img{
+width: 300px;
+border-radius: 20px;
+margin-left: 25px;
+margin-top: 20px;
+transition: transform 0.3s ease; 
+}
+.three-card-bottom-img img:hover{
+
+    transform: scale(1.1);
 }
