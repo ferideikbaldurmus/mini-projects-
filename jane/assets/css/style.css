@@ -1122,3 +1122,49 @@ text {
     justify-content: center;
     color: #64758B;
 }
+
+.three-card-bottom-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.three-card-bottom-container h1 {
+    font-size: 45px;
+    font-family: "Lexend", sans-serif;
+    width: 600px;
+    text-align: center;
+}
+
+.three-card-bottom-container h1 span {
+    color: #0569A0;
+    font-size: 45px;
+}
+.three-card-bottom-container h1 span svg{
+    margin-left: -210px;
+    color: #CCECFE;
+    width: 200px;
+    position: absolute;
+    z-index: -1;
+    margin-top: 40px;
+}
+.read-the-latest {
+margin-top: 200px;
+display: flex;
+
+}
+.read-the-latest h2 {
+display: flex;
+width: 400px;
+}
+.three-card-bottom{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   width: 350px;
+   height: 500px;
+   border: 1px solid #F1F5F9;
+   margin-top: 100px;
+   background-color: #F8FAFC;
+   border-radius: 20px;
+}
