@@ -1394,6 +1394,7 @@ margin-top: -100px;
     justify-content: center;
     margin-left: 250px;
     cursor: pointer;
+    transition: background-color 0.4s ease;
 }
 
 .footer-button h4 {
@@ -1412,20 +1413,26 @@ margin-top: -100px;
     height: 600px;
     position: absolute;
     position: absolute;
-    top: 200px; 
+    top: 200px;
     z-index: 1;
+    display: flex;
 }
-.footer-end-part-left{
-width: 50%;
-}
-.footer-end-part-left h1{
+
+/* 
+.footer-end-part-left {
+ 
+} */
+
+.footer-end-part-left h1 {
     margin-top: 250px;
     font-family: "Lexend", sans-serif;
     margin-left: 150px;
     color: #fff;
     font-size: 50px;
+    width: 600px;
 }
-.footer-left-button{
+
+.footer-left-button {
     width: 150px;
     height: 50px;
     border-radius: 30px;
@@ -1436,12 +1443,124 @@ width: 50%;
     margin-left: 150px;
     margin-top: 50px;
     font-family: "Lexend", sans-serif;
+    color: #334155;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
 }
-.footer-left-button svg{
-    width: 30px;
-    height: 30px;
-    color: #0C4A6E;
+
+.footer-left-button svg {
+    width: 25px;
+    height: 25px;
+    color: #334155;
+    margin-left: 5px;
 }
+
+.footer-left-button:hover {
+    background-color: #dde0e3;
+}
+
 .footer-end-part-right {
- 
+    display: flex;
+    color: #fff;
+
+    margin-top: 250px;
+}
+
+.footer-end-part-right h3 {
+    font-weight: 100;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    width: 400px;
+    margin-left: 100px;
+}
+
+.footer-end-part-right-button-container {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-template-rows: 10px 10px;
+    gap: 150px;
+    margin-top: 80px;
+    margin-left: 400px;
+}
+
+.footer-end-part-right-button {
+    width: 140px;
+    height: 40px;
+    border: 1px solid #414F63;
+    border-radius: 30px;
+    margin-left: -800px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+.footer-end-part-right-button:nth-child(n+4) {
+    margin-top: -120px;
+}
+
+.footer-end-part-right-button svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+
+}
+
+.footer-end-part-right-button svg:nth-child(1) {
+    margin-top: -50px;
+    margin-left: 20px;
+}
+
+.footer-end-part-right-button h3:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+    margin-left: -120px;
+    font-size: 15px;
+}
+
+.footer-end-part-right-button:hover {
+    background-color: rgba(123, 129, 139, 0.5)
+}
+
+.footer-end-part-right-button svg:nth-child(1) {
+    margin-top: 10px;
+}
+
+.footer-end-part-right-button h3:nth-child(2) {
+    margin-top: -20px;
+}
+
+.footer-line {
+    width: 90%;
+    height: 1px;
+    background-color: #414F63;
+    position: absolute;
+    z-index: 2;
+    margin-top: 350px;
+    margin-left: 70px;
+}
+
+.footer-last-part-container {
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.footer-last-part-container p {
+    color: #fff;
+    margin-left: 20px;
+    font-family: "Inter", sans-serif;
+}
+.footer-last-part-container h4{
+color: #8694A9;
+font-family: "Inter", sans-serif;
+font-weight: 400;
+margin-left: 600px;
+margin-top: 10px;
+cursor: auto;
 }
