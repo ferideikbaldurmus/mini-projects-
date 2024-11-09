@@ -685,6 +685,7 @@ text {
     font-family: "Lexend", sans-serif;
     color: #0F172A;
     font-size: 50px;
+   
 }
 
 .icons-h1 h2 {
@@ -694,7 +695,7 @@ text {
     font-size: 21px;
     width: 470px;
     text-align: center;
-    margin-left: 90px;
+    margin-left: 90px;  
 }
 
 .four-cards-container {
@@ -711,6 +712,7 @@ text {
     background-color: #F6FAFC;
     border-radius: 25px;
     border: 1px solid #F1F5F9;
+    /* max-width: max-content; */
 }
 
 .left-cards-container {
@@ -784,7 +786,7 @@ text {
     justify-content: flex-end;
     margin-top: -305px;
     overflow: hidden;
-
+ 
 }
 
 .cards-right-img img {
@@ -794,6 +796,7 @@ text {
     border-radius: 20px 0px 20px 0px;
     cursor: pointer;
     transition: transform 0.3s ease;
+    max-width: max-content;
 }
 
 .cards-right-img:hover img {
@@ -809,15 +812,12 @@ text {
 .part-one {
     display: flex;
     padding: 30px 100px;
-
-
 }
 
 .left-part-about-me h1 {
     width: 505px;
     font-size: 40px;
     font-family: "Lexend", sans-serif;
-
 }
 
 .line-about-me {
@@ -1127,7 +1127,6 @@ text {
     display: flex;
     align-items: center;
     margin-top: 100px;
-
 }
 
 .three-card-bottom-container h1 {
@@ -1181,6 +1180,7 @@ text {
     margin: 0px 150px;
     gap: 50px;
     margin-bottom: 50px;
+  
 }
 
 .three-card-bottom {
@@ -1201,10 +1201,10 @@ text {
     margin-top: 20px;
     transition: transform 0.3s ease;
     cursor: pointer;
+    max-width: max-content;
 }
 
 .three-card-bottom-img img:hover {
-
     transform: scale(1.1);
 }
 
@@ -1215,9 +1215,6 @@ text {
 
 .three-bottom-card-icon-container {
     display: flex;
-
-
-
 }
 
 .three-bottom-card-icon {
@@ -1238,7 +1235,6 @@ text {
     font-weight: 300;
     margin-top: 20px;
     cursor: pointer;
-
 }
 
 .three-bottom-card-icon-container h3:hover {
@@ -1249,7 +1245,6 @@ text {
     position: absolute;
     font-size: 15px;
     width: 250px;
-
 }
 
 .bottom-card-h1 {
@@ -1261,13 +1256,10 @@ text {
     color: #0F172A;
     width: 300px;
     margin-top: 50px;
-
-
 }
 
 .bottom-card-h1 h1:nth-child(1) {
     margin-left: -130px;
-
 }
 
 .three-card-bottom h4 {
@@ -1282,7 +1274,6 @@ text {
 
 .bottom-card-last-part {
     margin-left: 20px;
-
 }
 
 .bottom-card-last-part svg {
@@ -1325,8 +1316,6 @@ margin-top: -100px;
 
 .footer-container {
     position: relative;
-
-
 }
 
 .footer-first-part-container {
@@ -1503,7 +1492,6 @@ margin-top: -100px;
     justify-content: center;
     width: 20px;
     height: 20px;
-
 }
 
 .footer-end-part-right-button svg:nth-child(1) {
