@@ -192,8 +192,8 @@ main {
 }
 
 .left-box:hover {
-    background-color: #1E5E90;
-    /* Hover efektini ve cursor: pointer'i etkinleştiremedim? */
+    background-color: rgb(7, 89, 133);
+    opacity: 1;
 }
 
 /* .mini-three-boxes {
@@ -231,10 +231,7 @@ cursor: pointer;
     margin-left: 20px;
     margin-top: -5px;
 }
-/* .mini-three-boxes-icons-social-media{
-
-} */
-.mini-three-boxes-icons-social-media i{
+.mini-three-boxes-icons-social-media i {
     width: 40px;
     height: 40px;
     display: inline-flex;
@@ -243,6 +240,10 @@ cursor: pointer;
     border: 1px solid #E2E8F0;
     border-radius: 50%;
     cursor: pointer;
+}
+.mini-three-boxes-icons-social-media:hover {
+    background-color: rgb(226, 232, 240);
+    opacity: 1;
 }
 .mini-three-boxes i {
     color: #475569;
@@ -285,7 +286,7 @@ cursor: pointer;
     height: 40px;
     background-color: #FEFDFC;
     box-shadow: 0 10px 20px rgba(199, 208, 207, 0.5),
-        0 6px 10px rgba(255, 255, 255, 0.6);
+    0 6px 10px rgba(255, 255, 255, 0.6);
     margin-left: 160px;
     margin-top: -20px;
     border-radius: 20px;
@@ -319,7 +320,7 @@ cursor: pointer;
     height: 40px;
     background-color: #FEFDFC;
     box-shadow: 0 10px 20px rgba(199, 208, 207, 0.5),
-        0 6px 10px rgba(255, 255, 255, 0.6);
+    0 6px 10px rgba(255, 255, 255, 0.6);
     margin-left: -150px;
     margin-top: -180px;
     border-radius: 20px;
@@ -538,27 +539,25 @@ cursor: pointer;
     width: 160px;
     height: 160px;
     border-radius: 50%;
-    background-color: rgba(241, 243, 245, 0.5);
+    background-color: rgba(241, 243, 245, 0.4);
     animation: rotate 10s linear infinite;
     font-family: "Inter", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-
+    /* position: relative; */
+    animation: rotation 10s linear infinite;
 }
-
-@keyframes rotate {
-    0% {
+@keyframes rotation {
+    from {
         transform: rotate(0deg);
     }
-
-    100% {
+    to {
         transform: rotate(360deg);
     }
 }
 
-.download-icon {
+/* .download-icon {
     position: absolute;
     width: 80px;
     height: 80px;
@@ -568,14 +567,17 @@ cursor: pointer;
     align-items: center;
     justify-content: center;
     color: #FFFFFF;
-    transform: none;
-}
 
-text {
+}
+.download-icon svg{
+    width: 30px;
+    height: 30px;
+} */
+/* text {
     font-size: 25px;
     fill: #252C40;
     text-anchor: middle;
-}
+} */
 
 .icons-container {
     margin: 50px;
@@ -685,7 +687,7 @@ text {
     font-family: "Lexend", sans-serif;
     color: #0F172A;
     font-size: 50px;
-   
+
 }
 
 .icons-h1 h2 {
@@ -695,7 +697,7 @@ text {
     font-size: 21px;
     width: 470px;
     text-align: center;
-    margin-left: 90px;  
+    margin-left: 90px;
 }
 
 .four-cards-container {
@@ -795,7 +797,7 @@ text {
     border-radius: 20px 0px 20px 0px;
     cursor: pointer;
     transition: transform 0.3s ease;
-/* max-width: max-content; */
+    /* max-width: max-content; */
 }
 
 .cards-right-img:hover img {
