@@ -241,7 +241,7 @@ cursor: pointer;
     border-radius: 50%;
     cursor: pointer;
 }
-.mini-three-boxes-icons-social-media:hover {
+.mini-three-boxes-icons-social-media i:hover {
     background-color: rgb(226, 232, 240);
     opacity: 1;
 }
@@ -768,6 +768,7 @@ justify-content: center;
     font-size: 30px;
     margin-left: -100px;
     margin-top: 80px;
+
 }
 
 .card-bottom-text h2 {
@@ -786,7 +787,24 @@ justify-content: center;
     margin-top: 50px;
     margin-left: -100px;
 }
-
+.four-card-text-correction{
+    margin-left: -100px;
+}
+.four-card-text-correction{
+    margin-left: -80px;
+}
+.four-card-bottom-text-correction{
+    margin-left: -80px;
+}
+.h3-svg svg:last-child{
+    margin-left: 40px;
+}
+.bottom-four-card-svg{
+    margin-left: -50px;
+}
+.bottom-card-text-svg{
+    margin-left: -60px;
+}
 .h3-svg {
     margin-top: 145px;
     margin-left: -15px;
@@ -799,7 +817,8 @@ justify-content: center;
     justify-content: flex-end;
     margin-top: -305px;
     overflow: hidden;
-    /* max-width: max-content; */
+    max-width: max-content;
+    margin-left: 525px;
 }
 
 .cards-right-img img {
@@ -920,7 +939,10 @@ justify-content: center;
     height: 400px;
     border: 1px solid #E2E8F0;
 }
-
+.second-box .boxes-line{
+margin-top: 40px;
+margin-left: 5px;
+}
 .third-box {
     width: 300px;
     height: 400px;
@@ -1251,7 +1273,15 @@ justify-content: center;
     font-size: 15px;
     width: 250px;
 }
-
+.bottom-card-h1-text-first{
+    margin-left: -25px;
+}
+.bottom-card-h1-text{
+    margin-left: 25px;
+}
+.bottom-card-h1-text-end{
+    margin-left: -35px;
+}
 .bottom-card-h1 {
     cursor: pointer;
 }
@@ -1370,13 +1400,30 @@ margin-top: -100px;
 }
 
 .footer-first-part-right::before {
-    content: "Enter your mail";
     color: #ffffff;
     font-size: 16px;
     opacity: 0.6;
     margin-left: 30px;
     font-family: "Lexend", sans-serif;
 }
+.footer-first-part-right-mail-button .mail-button-input {
+    background-color: transparent; 
+    border: none; 
+    color: #ffffff; 
+    margin-left: 20px;
+    cursor: text; 
+}
+
+.footer-first-part-right-mail-button .mail-button-input::placeholder {
+    color: #ffffff;
+    opacity: 0.6; 
+}
+
+.footer-first-part-right-mail-button .mail-button-input:focus {
+    outline: none; 
+    opacity: 1; 
+}
+
 
 .footer-button {
     width: 150px;
@@ -1386,7 +1433,7 @@ margin-top: -100px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 250px;
+    margin-left: 230px;
     cursor: pointer;
     transition: background-color 0.4s ease;
 }
@@ -1516,7 +1563,6 @@ margin-top: -100px;
 .footer-end-part-right-button:hover {
     background-color: rgba(123, 129, 139, 0.5)
 }
-
 .footer-end-part-right-button svg:nth-child(1) {
     margin-top: 10px;
 }
