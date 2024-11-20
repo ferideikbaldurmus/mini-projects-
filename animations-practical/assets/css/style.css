@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(240, 112, 21);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.card {
+    width: 300px;
+    height: 400px;
+    border: 3px solid #e0d4d4;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(240, 112, 20, 0.6);
+    overflow: hidden;
+    z-index: 1;
+}
+
+.card-text {
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    color: #e0d4d4;
+    text-shadow: 2px 2px rgb(111, 86, 86);
+    z-index: 2;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    background: linear-gradient(#00ccff, #d500f9);
+    animation: rotate 3s linear infinite;
+    border-radius: 16px;
+    z-index: 2;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.card::after {
+    content: '';
+    position: absolute;
+    inset: 5px;
+    background: #F07014;
+    border-radius: 16px;
+    z-index: 3;
+
+}
