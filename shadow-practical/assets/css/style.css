@@ -29,7 +29,7 @@ body {
     width: 250px;
     height: 200px;
     background: linear-gradient(#e88547, #CBAACB);
-    filter: drop-shadow(0px 5px 5px #FFF6E5) drop-shadow(0px 10px 15px #cacdce);
+    filter: drop-shadow(0px 5px 5px #FFF6E5) drop-shadow(0px 10px 15px #e88547);
     position: relative;
     display: flex;
     align-items: center;
@@ -47,11 +47,74 @@ body {
     z-index: -1;
     filter: blur(20px);
 }
-.gradient-drop-shadow-example h3{
+
+.gradient-drop-shadow-example h3 {
     font-family: 'Inter', sans-serif;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 16px;
 }
-.box-shadow-example {}
 
-.text-shadow-example {}
+.box-shadow-example {
+    width: 250px;
+    height: 200px;
+    background-color: #CBAACB;
+    margin-top: 100px;
+    margin-left: 30px;
+    box-shadow: 10px 10px 10px #7958ce;
+}
+
+.multiple-shadows-example {
+    width: 250px;
+    height: 200px;
+    background-color: #d9f18f;
+    margin-top: 350px;
+    box-shadow: rgba(244, 121, 199, 0.4) -5px 5px,
+        rgba(226, 124, 188, 0.3) -10px 10px,
+        rgba(230, 161, 204, 0.2) -15px 15px,
+        rgba(240, 46, 170, 0.1) -20px 20px,
+        rgba(144, 115, 134, 0.05) -25px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.multiple-shadows-example h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.box-shadow-example h1 {
+    width: 400px;
+    margin-top: -75px;
+    margin-left: -30px;
+
+}
+/* .text-shadow-example {
+ 
+} */
+.text-shadow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.text-shadow h3 {
+    font-family: "Ga Maamli", sans-serif;
+    font-size: 40px;
+    color: rgb(231, 232, 194);
+    margin-top: -90px;
+    margin-left: -20px;
+    text-shadow: 4px 5px 4px rgb(208, 215, 188);
+}
+.text-shadow h4{
+    margin-top: 100px;
+    margin-left: -200px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    text-shadow: 4px 5px 4px rgb(141, 142, 139);
+    color: antiquewhite;
+}
